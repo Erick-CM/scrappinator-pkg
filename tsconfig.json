@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "outDir": "./dist",
+    "rootDir": "./src", // your package root.
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,  
+    "declaration": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    "module": "es2022",                                /* Specify what module code is generated. */
+    "moduleResolution": "node",                     /* Specify how TypeScript looks up a file from a given module specifier. */
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+  },
+  "include": ["./"],
+  "exclude": ["node_modules", "dist"]
+}
