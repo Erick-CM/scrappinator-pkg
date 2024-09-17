@@ -2,8 +2,8 @@
     "name": "scrappinator",
     "version": "1.0.0",
     "description": "scrappinator",
-    "main": "dist/index.js",
-    "types": "dist/scrappinator.d.ts",
+    "main": "dist/index",
+    "types": "dist/index",
     "exports": {
         ".": "./dist/index.js",
         "./*.js": "./dist/index.js"
